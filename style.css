@@ -1,4 +1,78 @@
+
+@font-face {
+    font-family: Rubik;
+    src: url("/fonts/Rubik/Rubik-Regular.ttf");
+}
 body {
+    font-family: Rubik;
     background-color: #2D2B29;
     color: #FFFFFF;
+}
+
+main, header, footer {
+    margin-left: 150px;
+    margin-right: 150px;
+    width: auto;
+}
+
+.navigation {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    width: auto;
+}
+
+.navigation h4 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    flex: 3 1 34rem;
+}
+.navigation h4 strong {
+    color: #FEA609;
+}
+
+.navigation ul {
+    color: #FFFFFF;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navigation ul li a {
+    font-family: Rubik;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    text-decoration: none;
+}
+
+.navigation ul li a:focus {
+    color:#FEA609;
+}
+
+@media screen and (max-width: 842px) {
+
+    body {
+        font-family: Rubik;
+        background-color: #2D2B29;
+        color: #FFFFFF;
+        overflow-x: hidden;
+    }
+
+    main, header, footer {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: auto;
+    }
+    .navigation ul{
+        display: none;
+    }
+
+
 }
