@@ -13,6 +13,7 @@ main, header, footer {
     margin-left: 150px;
     margin-right: 150px;
     width: auto;
+    gap: 20px;
 }
 
 .navigation {
@@ -100,6 +101,7 @@ footer ul li a:hover {
     width: auto;
     margin-left: 35px;
     margin-right: 35px;
+    padding-bottom: 35px;
 }
 .contact-us .intro h4 {
     font-family: Rubik;
@@ -114,6 +116,7 @@ footer ul li a:hover {
 .contact-us .intro p {
     width: 400px;
     font-family: Rubik;
+    text-align: justify;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,6 +142,22 @@ footer ul li a:hover {
     background:none;
 }
 
+.contact-us .form textarea {
+    height: 300px;
+    border: 1px solid rgba(255,255,255, 0.15);
+    color: #FFFFFF;
+    background: none;
+}
+
+.contact-us .form textarea::placeholder{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9B968B;
+}
+
 .contact-us .form input::placeholder{
     text-indent: 10px;
     font-family: Rubik;
@@ -147,8 +166,27 @@ footer ul li a:hover {
     font-size: 16px;
     color: #9B968B;
 }
-.contact-us .form input::target-text{
+.contact-us .form input[type=text]{
     text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact-us .form input{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact-us .form textarea {
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
 }
 .contact-us .form button {
     padding: 13px 18px;
