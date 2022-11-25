@@ -13,6 +13,7 @@ main, header, footer {
     margin-left: 150px;
     margin-right: 150px;
     width: auto;
+    gap: 20px;
 }
 
 .navigation {
@@ -92,6 +93,109 @@ footer ul li a {
 
 footer ul li a:hover {
     color: #FEA609;
+}
+
+.contact-us {
+    /*background-color: red;*/
+    /*border: 1px solid #FEA609;*/
+    width: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding-bottom: 35px;
+}
+.contact-us .intro h4 {
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 44px;
+    font-weight: 700;
+    height: 10px;
+    /*line-height: 100%;*/
+    color: #FFFFFF;
+}
+
+.contact-us .intro p {
+    width: 400px;
+    font-family: Rubik;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #9B968B;
+}
+
+.contact-us .intro strong {
+    color: #FEA609;
+}
+
+.contact-us .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-us .form input {
+    height: 45px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    background:none;
+}
+
+.contact-us .form textarea {
+    height: 300px;
+    border: 1px solid rgba(255,255,255, 0.15);
+    color: #FFFFFF;
+    background: none;
+}
+
+.contact-us .form textarea::placeholder{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9B968B;
+}
+
+.contact-us .form input::placeholder{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #9B968B;
+}
+.contact-us .form input[type=text]{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contact-us .form input{
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact-us .form textarea {
+    text-indent: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.contact-us .form button {
+    padding: 13px 18px;
+    font-family: Rubik;
+    width: 126px;
+    height: 52px;
+    background: #FEA609;
+    color: #FFFFFF;
+    border-radius: 8px;
 }
 @media screen and (max-width: 842px) {
 
