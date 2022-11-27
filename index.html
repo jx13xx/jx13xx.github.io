@@ -8,6 +8,7 @@
   <meta name="robots" content="index,follow">
   <link rel="stylesheet" href="style.css">
   <title>Portfolio Page</title>
+  <script type="application/javascript" src="main.js"></script>
 </head>
 <body>
  <header>
@@ -26,7 +27,7 @@
 <!--    About me section-->
   <div class="intro-section">
     <h1>I'm William K.</h1>
-    <div class="designation">
+    <div class="designation" onclick="printLog()">
       <strong>Web Designer&nbsp;</strong>
       <strong>/&nbsp;UI Designer&nbsp;</strong>
       <strong>/&nbsp;Graphic Designer</strong>
@@ -63,5 +64,21 @@
     </ul>
   </footer>
 </main>
+ <script>
+     function changeBg() {
+         const images = [
+             'url("images/profile-pic.png")',
+             'url("images/terminal.png")',
+             'url("images/computer.png")',
+             'url("images/code.png")',
+             'url("images/question-mark.png")',
+         ]
+         const backgroundImage = document.querySelector('body > main > div.about-me > div.intro-image > div.ellipse-image')
+         const bg = images[Math.floor(Math.random() * images.length)];
+         backgroundImage.style.backgroundImage = bg;
+
+     }
+     setInterval(changeBg, 950)
+ </script>
 </body>
 </html>

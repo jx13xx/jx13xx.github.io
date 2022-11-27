@@ -228,6 +228,8 @@ footer ul li a:hover {
     border-radius: 50%;
 }
 .intro-image .ellipse-image {
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
     background: center url("images/profile-pic.png");
     background-size: 420px 460px;
     height: 459px;
