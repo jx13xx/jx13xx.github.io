@@ -361,7 +361,10 @@ footer ul li a:hover {
 .service-description .framework {
     color: #FFFFFF;
 }
-
+.resume-section {
+    display: flex;
+    gap: 20px;
+}
 .resume h1 {
     font-family: Rubik;
     font-style: normal;
@@ -401,6 +404,13 @@ footer ul li a:hover {
     line-height: 160%;
     color: #FFFFFF;
 }
+
+.education {
+    background-color: #2D2B29;
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 12px;
+}
 .education-section {
     margin-bottom: 50px;
     width: 800px;
@@ -429,6 +439,42 @@ footer ul li a:hover {
     font-size: 16px;
     color: #FFFFFF;
 }
+.employment  {
+    background-color: #2D2B29;
+    border-radius: 12px;
+    padding: 12px;
+    margin-right: 12px;
+}
+.employment-section {
+    margin-bottom: 50px;
+    width: 800px;
+}
+.employment-section .employment-title {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FEA609;
+    line-height: 1px;
+}
+
+.employment-section .employment-year {
+    margin-bottom: 10px;
+    font-family: Rubik;
+    font-style: normal;
+    font-size: 16px;
+    color: #9B968B;
+}
+
+.employment-section .employment-type {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+
 @media screen and (max-width: 842px) {
 
     body {
