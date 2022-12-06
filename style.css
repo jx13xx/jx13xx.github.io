@@ -474,7 +474,54 @@ footer ul li a:hover {
     color: #FFFFFF;
 }
 
+.project h1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 160%;
+    align-items: center;
+    color: #FFFFFF;
+}
 
+.project strong {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 160%;
+    align-items: center;
+    color: #FEA609;
+}
+
+.project p {
+    width: 700px;
+    font-family: Rubik;
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #9B968B;
+}
+
+
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    gap: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.project-tile {
+    padding: 32px;
+    gap: 28px;
+    width: 600px;
+    height: 356px;
+    background: #2D2B29;
+    border-radius: 8px;
+}
 @media screen and (max-width: 842px) {
 
     body {
