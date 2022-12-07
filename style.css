@@ -473,7 +473,9 @@ footer ul li a:hover {
     font-size: 16px;
     color: #FFFFFF;
 }
-
+.project {
+    height: 800px;
+}
 .project h1 {
     font-family: Rubik;
     font-style: normal;
@@ -518,10 +520,45 @@ footer ul li a:hover {
     padding: 32px;
     gap: 28px;
     width: 600px;
-    height: 356px;
+    height: 375px;
     background: #2D2B29;
     border-radius: 8px;
 }
+
+.project-tile h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1px;
+}
+
+.project-tile h4 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #FEA609;
+}
+
+.project-tile p {
+    width: 528px;
+    font-family: Rubik;
+    font-style: normal;
+}
+
+.project-tile-code {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 19px;
+}
+
+/*.code-preview {*/
+/*    background: url("images/preview-project.svg");*/
+/*}*/
 @media screen and (max-width: 842px) {
 
     body {
